@@ -1,4 +1,11 @@
 {
-  "welcome": "Hoş geldiniz",
-  "description": "Bu bir örnek açıklamadır"
+  "Home": "Anasayfa",
+  "Products": "Ürünler",
+  "About": "Hakkımızda",
+  "Contact": "İletişim",
+  "New Arrivals": "Yeni Ürünler",
+  "Brands": "Markalar",
+  "Profile": "Profil",
+  "Logout": "Çıkış Yap",
+  "Settings": "Ayarlar"
 }

@@ -1,4 +1,11 @@
 {
-  "welcome": "Welcome",
-  "description": "This is an example description"
+  "Home": "Home",
+  "Products": "Products",
+  "About": "About",
+  "Contact": "Contact",
+  "New Arrivals": "New Arrivals",
+  "Brands": "Brands",
+  "Profile": "Profile",
+  "Logout": "Logout",
+  "Settings": "Settings"
 }

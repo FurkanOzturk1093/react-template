@@ -1,4 +1,4 @@
-import Test from "./pages/Test";
+import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
 import { lightTheme, darkTheme } from "./theme/theme";
 import { ThemeProvider } from "@mui/material/styles";
@@ -7,8 +7,8 @@ import { CssBaseline, Box } from "@mui/material";
 function App() {
   const routes = [
     {
-      path: "/test",
-      component: Test,
+      path: "/",
+      component: Home,
     },
   ];
   const { isDarkMode } = useSelector((state) => state.setTheme);
@@ -16,7 +16,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Box sx={{ minHeight: "100vh" }} bgcolor="background">
+      <Box sx={{ minHeight: "100vh" }} bgcolor="background.paper">
         <Routes>
           {routes.map((route, index) => (
             <Route
